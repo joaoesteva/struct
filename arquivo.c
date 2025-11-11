@@ -20,7 +20,7 @@ void lerDados(Estado estados[], int n) {
         scanf("%d", &estados[i].numVeiculos);
         printf("Número de acidentes (2007): ");
         scanf("%d", &estados[i].numAcidentes);
-        getchar();  // descarta \n pendente
+        getchar();  
     }
 }
 
@@ -81,3 +81,4 @@ int main(void) {
 
     return 0;
 }
+
